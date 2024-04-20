@@ -52,3 +52,4 @@ docker环境地址：https://github.com/excuses0217/ldap-setup-range
    所以想问一下授权这一步是哪有了问题
 
 3. 这里想问一下上面这样为啥查不到，基选择了 "ou=users,dc=example,dc=com"，过滤条件"uid=qihoo"我觉得好像没问题![image-20240420151410882](img/image-20240420151410882.png)
+4. 还有想问一下by anonymous auth有啥用，我设置了但是没感受到用处
