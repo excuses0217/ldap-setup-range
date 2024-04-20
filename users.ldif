@@ -1,0 +1,126 @@
+dn: ou=users,dc=example,dc=com
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+description: Container for groups
+
+dn: cn=manage,ou=groups,dc=example,dc=com
+objectClass: groupOfUniqueNames
+cn: manage
+uniqueMember: uid=wanglin,ou=users,dc=example,dc=com
+uniqueMember: uid=zhanghui,ou=users,dc=example,dc=com
+
+dn: cn=hr,ou=groups,dc=example,dc=com
+objectClass: groupOfUniqueNames
+cn: hr
+uniqueMember: uid=topsec,ou=users,dc=example,dc=com
+
+dn: uid=lifengying,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: lifengying
+sn: li
+uid: lifengying
+userPassword: admin123
+
+dn: uid=liuxiuying,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: liuxiuying
+sn: liu
+uid: liuxiuying
+userPassword: qPqoJpz7Db
+
+dn: uid=qihoo,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: qihoo
+sn: qihoo
+uid: qihoo
+userPassword: password
+
+dn: uid=topsec,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: topsec
+sn: topsec
+uid: topsec
+userPassword: 1qaz2wsx
+
+dn: uid=wangfei,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangfei
+sn: wang
+uid: wangfei
+userPassword: 1qaz2wsx
+
+dn: uid=wangguizhen,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangguizhen
+sn: wang
+uid: wangguizhen
+userPassword: 1qaz2wsx
+
+dn: uid=wanghui,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wanghui
+sn: wang
+uid: wanghui
+userPassword: password
+
+dn: uid=wangjian,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangjian
+sn: wang
+uid: wangjian
+userPassword: 1qaz2wsx
+
+dn: uid=wangjianguo,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangjianguo
+sn: wang
+uid: wangjianguo
+userPassword: 123456
+
+dn: uid=wangjing,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangjing
+sn: wang
+uid: wangjing
+userPassword: QMPo9NvyZf
+
+dn: uid=wanglin,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wanglin
+sn: wang
+uid: wanglin
+userPassword: password
+
+dn: uid=wangqiang,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangqiang
+sn: wang
+uid: wangqiang
+userPassword: 1gsbONYf9w
+
+dn: uid=wangyun,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: wangyun
+sn: wang
+uid: wangyun
+userPassword: 1qaz2wsx
+
+dn: uid=web,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: web
+sn: web
+uid: web
+userPassword: sOUmaDUk5q
+
+dn: uid=zhanghui,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+cn: zhanghui
+sn: zhang
+uid: zhanghui
+userPassword: 123456
+
